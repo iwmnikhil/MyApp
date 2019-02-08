@@ -18,6 +18,7 @@ class LogoTitle extends React.Component {
 	}
 }
 
+// Home
 class HomeScreen extends React.Component {
 
 	state = {
@@ -121,6 +122,7 @@ class HomeScreen extends React.Component {
 
 }
 
+// Modal
 class ModalScreen extends React.Component {
 	render() {
 		return (
