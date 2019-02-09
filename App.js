@@ -207,5 +207,5 @@ const style = StyleSheet.create({
 });
 
 //export default createAppContainer(AppNavigator);
-export default createAppContainer(RootStack);
-//export default createAppContainer(TabNavigator);
+//export default createAppContainer(RootStack);
+export default createAppContainer(TabNavigator);

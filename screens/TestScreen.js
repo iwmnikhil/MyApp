@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Button, Alert, View, Text, Image } from 'react-native';
-import Shopify from 'react-native-shopify';
 
 //import CommonStyle from '../app/CSS/common';
 import InputStyle from '../app/CSS/input';
@@ -10,14 +9,6 @@ class TestScreen extends React.Component {
 	static navigationOptions = {
 		title: 'Settings',
 	};
-
-	getProductsNEW = () => {
-		Shopify.initialize('souk-chat.myshopify.com', '6f360147c06fff465e7d54fe3a3068d3');
-		Shopify.getProducts().then(products => {
-			console.log(products);
-		});
-
-	}
 
 	getProducts = () => {
 

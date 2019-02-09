@@ -61,8 +61,6 @@ attr alertDialogTheme
 attr allowStacking
 attr alpha
 attr alphabeticModifiers
-attr ambientEnabled
-attr appTheme
 attr arrowHeadLength
 attr arrowShaftLength
 attr autoCompleteTextViewStyle
@@ -87,25 +85,12 @@ attr buttonBarStyle
 attr buttonGravity
 attr buttonIconDimen
 attr buttonPanelSideLayout
-attr buttonSize
 attr buttonStyle
 attr buttonStyleSmall
 attr buttonTint
 attr buttonTintMode
-attr buyButtonAppearance
-attr buyButtonHeight
-attr buyButtonText
-attr buyButtonWidth
-attr cameraBearing
-attr cameraMaxZoomPreference
-attr cameraMinZoomPreference
-attr cameraTargetLat
-attr cameraTargetLng
-attr cameraTilt
-attr cameraZoom
 attr checkboxStyle
 attr checkedTextViewStyle
-attr circleCrop
 attr closeIcon
 attr closeItemLayout
 attr collapseContentDescription
@@ -120,7 +105,6 @@ attr colorControlNormal
 attr colorError
 attr colorPrimary
 attr colorPrimaryDark
-attr colorScheme
 attr colorSwitchThumbNormal
 attr commitIcon
 attr contentDescription
@@ -149,7 +133,6 @@ attr editTextBackground
 attr editTextColor
 attr editTextStyle
 attr elevation
-attr environment
 attr expandActivityOverflowButtonDrawable
 attr fadeDuration
 attr failureImage
@@ -164,8 +147,6 @@ attr fontProviderPackage
 attr fontProviderQuery
 attr fontStyle
 attr fontWeight
-attr fragmentMode
-attr fragmentStyle
 attr gapBetweenBars
 attr goIcon
 attr height
@@ -176,18 +157,12 @@ attr icon
 attr iconTint
 attr iconTintMode
 attr iconifiedByDefault
-attr imageAspectRatio
-attr imageAspectRatioAdjust
 attr imageButtonStyle
 attr indeterminateProgressStyle
 attr initialActivityCount
 attr isLightTheme
 attr itemPadding
 attr keylines
-attr latLngBoundsNorthEastLatitude
-attr latLngBoundsNorthEastLongitude
-attr latLngBoundsSouthWestLatitude
-attr latLngBoundsSouthWestLongitude
 attr layout
 attr layout_anchor
 attr layout_anchorGravity
@@ -206,17 +181,8 @@ attr listPreferredItemHeightLarge
 attr listPreferredItemHeightSmall
 attr listPreferredItemPaddingLeft
 attr listPreferredItemPaddingRight
-attr liteMode
 attr logo
 attr logoDescription
-attr mapType
-attr maskedWalletDetailsBackground
-attr maskedWalletDetailsButtonBackground
-attr maskedWalletDetailsButtonTextAppearance
-attr maskedWalletDetailsHeaderTextAppearance
-attr maskedWalletDetailsLogoImageType
-attr maskedWalletDetailsLogoTextColor
-attr maskedWalletDetailsTextAppearance
 attr maxButtonHeight
 attr measureWithLargestChild
 attr multiChoiceItemLayout
@@ -267,7 +233,6 @@ attr roundedCornerRadius
 attr roundingBorderColor
 attr roundingBorderPadding
 attr roundingBorderWidth
-attr scopeUris
 attr searchHintIcon
 attr searchIcon
 attr searchViewStyle
@@ -330,21 +295,12 @@ attr titleTextColor
 attr titleTextStyle
 attr toolbarNavigationButtonStyle
 attr toolbarStyle
-attr toolbarTextColorStyle
 attr tooltipForegroundColor
 attr tooltipFrameBackground
 attr tooltipText
 attr track
 attr trackTint
 attr trackTintMode
-attr uiCompass
-attr uiMapToolbar
-attr uiRotateGestures
-attr uiScrollGestures
-attr uiTiltGestures
-attr uiZoomControls
-attr uiZoomGestures
-attr useViewLifecycle
 attr viewAspectRatio
 attr viewInflaterClass
 attr voiceIcon
@@ -358,8 +314,6 @@ attr windowFixedWidthMinor
 attr windowMinWidthMajor
 attr windowMinWidthMinor
 attr windowNoTitle
-attr windowTransitionStyle
-attr zOrderOnTop
 bool abc_action_bar_embed_tabs
 bool abc_allow_stacked_button_bar
 bool abc_config_actionMenuItemAllCaps
@@ -403,16 +357,6 @@ color bright_foreground_material_light
 color button_material_dark
 color button_material_light
 color catalyst_redbox_background
-color common_google_signin_btn_text_dark
-color common_google_signin_btn_text_dark_default
-color common_google_signin_btn_text_dark_disabled
-color common_google_signin_btn_text_dark_focused
-color common_google_signin_btn_text_dark_pressed
-color common_google_signin_btn_text_light
-color common_google_signin_btn_text_light_default
-color common_google_signin_btn_text_light_disabled
-color common_google_signin_btn_text_light_focused
-color common_google_signin_btn_text_light_pressed
 color dim_foreground_disabled_material_dark
 color dim_foreground_disabled_material_light
 color dim_foreground_material_dark
@@ -458,21 +402,6 @@ color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
 color tooltip_background_dark
 color tooltip_background_light
-color wallet_bright_foreground_disabled_holo_light
-color wallet_bright_foreground_holo_dark
-color wallet_bright_foreground_holo_light
-color wallet_dim_foreground_disabled_holo_dark
-color wallet_dim_foreground_holo_dark
-color wallet_dim_foreground_inverse_disabled_holo_dark
-color wallet_dim_foreground_inverse_holo_dark
-color wallet_highlighted_text_holo_dark
-color wallet_highlighted_text_holo_light
-color wallet_hint_foreground_holo_dark
-color wallet_hint_foreground_holo_light
-color wallet_holo_blue_light
-color wallet_link_text_light
-color wallet_primary_text_holo_light
-color wallet_secondary_text_holo_dark
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -668,27 +597,6 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
-drawable common_full_open_on_phone
-drawable common_google_signin_btn_icon_dark
-drawable common_google_signin_btn_icon_dark_disabled
-drawable common_google_signin_btn_icon_dark_focused
-drawable common_google_signin_btn_icon_dark_normal
-drawable common_google_signin_btn_icon_dark_pressed
-drawable common_google_signin_btn_icon_light
-drawable common_google_signin_btn_icon_light_disabled
-drawable common_google_signin_btn_icon_light_focused
-drawable common_google_signin_btn_icon_light_normal
-drawable common_google_signin_btn_icon_light_pressed
-drawable common_google_signin_btn_text_dark
-drawable common_google_signin_btn_text_dark_disabled
-drawable common_google_signin_btn_text_dark_focused
-drawable common_google_signin_btn_text_dark_normal
-drawable common_google_signin_btn_text_dark_pressed
-drawable common_google_signin_btn_text_light
-drawable common_google_signin_btn_text_light_disabled
-drawable common_google_signin_btn_text_light_focused
-drawable common_google_signin_btn_text_light_normal
-drawable common_google_signin_btn_text_light_pressed
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -731,26 +639,14 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
-id adjust_height
-id adjust_width
 id alertTitle
 id all
 id always
-id android_pay
-id android_pay_dark
-id android_pay_light
-id android_pay_light_with_border
 id async
-id auto
 id beginning
 id blocking
-id book_now
 id bottom
 id buttonPanel
-id buyButton
-id buy_now
-id buy_with
-id buy_with_google
 id catalyst_redbox_title
 id center
 id centerCrop
@@ -759,19 +655,15 @@ id center_horizontal
 id center_vertical
 id checkbox
 id chronometer
-id classic
 id clip_horizontal
 id clip_vertical
 id collapseActionView
 id contentPanel
 id custom
 id customPanel
-id dark
 id decor_content_parent
 id default_activity_button
 id disableHome
-id donate_with
-id donate_with_google
 id edit_query
 id end
 id expand_activities_button
@@ -787,33 +679,21 @@ id fitXY
 id focusCrop
 id forever
 id fps_text
-id google_wallet_classic
-id google_wallet_grayscale
-id google_wallet_monochrome
-id grayscale
-id holo_dark
-id holo_light
 id home
 id homeAsUp
-id hybrid
 id icon
 id icon_group
-id icon_only
 id ifRoom
 id image
 id info
 id italic
 id left
-id light
 id line1
 id line3
 id listMode
 id list_item
-id logo_only
-id match_parent
 id message
 id middle
-id monochrome
 id multiply
 id never
 id none
@@ -822,7 +702,6 @@ id notification_background
 id notification_main_column
 id notification_main_column_container
 id parentPanel
-id production
 id progress_circular
 id progress_horizontal
 id radio
@@ -840,8 +719,6 @@ id rn_redbox_reload_button
 id rn_redbox_report_button
 id rn_redbox_report_label
 id rn_redbox_stack
-id sandbox
-id satellite
 id screen
 id scrollIndicatorDown
 id scrollIndicatorUp
@@ -857,26 +734,20 @@ id search_plate
 id search_src_text
 id search_voice_btn
 id select_dialog_listview
-id selectionDetails
 id shortcut
 id showCustom
 id showHome
 id showTitle
-id slide
 id spacer
 id split_action_bar
 id src_atop
 id src_in
 id src_over
-id standard
 id start
-id strict_sandbox
 id submenuarrow
 id submit_area
 id tabMode
 id tag_transition_group
-id terrain
-id test
 id text
 id text2
 id textSpacerNoButtons
@@ -892,14 +763,12 @@ id up
 id useLogo
 id view_tag_instance_handle
 id view_tag_native_id
-id wide
 id withText
 id wrap_content
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
 integer cancel_button_image_alpha
 integer config_tooltipAnimTime
-integer google_play_services_version
 integer status_bar_notification_info_maxnum
 layout abc_action_bar_title_item
 layout abc_action_bar_up_container
@@ -1000,30 +869,12 @@ string catalyst_remotedbg_message
 string catalyst_report_button
 string catalyst_settings
 string catalyst_settings_title
-string common_google_play_services_enable_button
-string common_google_play_services_enable_text
-string common_google_play_services_enable_title
-string common_google_play_services_install_button
-string common_google_play_services_install_text
-string common_google_play_services_install_title
-string common_google_play_services_notification_ticker
-string common_google_play_services_unknown_issue
-string common_google_play_services_unsupported_text
-string common_google_play_services_update_button
-string common_google_play_services_update_text
-string common_google_play_services_update_title
-string common_google_play_services_updating_text
-string common_google_play_services_wear_update_text
-string common_open_on_phone
-string common_signin_button_text
-string common_signin_button_text_long
 string image_button_description
 string image_description
 string link_description
 string search_description
 string search_menu_title
 string status_bar_notification_info_overflow
-string wallet_buy_button_place_holder
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
@@ -1310,10 +1161,6 @@ style ThemeOverlay_AppCompat_Dark_ActionBar
 style ThemeOverlay_AppCompat_Dialog
 style ThemeOverlay_AppCompat_Dialog_Alert
 style ThemeOverlay_AppCompat_Light
-style WalletFragmentDefaultButtonTextAppearance
-style WalletFragmentDefaultDetailsHeaderTextAppearance
-style WalletFragmentDefaultDetailsTextAppearance
-style WalletFragmentDefaultStyle
 style Widget_AppCompat_ActionBar
 style Widget_AppCompat_ActionBar_Solid
 style Widget_AppCompat_ActionBar_TabBar
@@ -1407,7 +1254,6 @@ styleable ColorStateListItem android_color android_alpha alpha
 styleable CompoundButton android_button buttonTint buttonTintMode
 styleable CoordinatorLayout keylines statusBarBackground
 styleable CoordinatorLayout_Layout android_layout_gravity layout_anchor layout_anchorGravity layout_behavior layout_dodgeInsetEdges layout_insetEdge layout_keyline
-styleable CustomWalletTheme toolbarTextColorStyle windowTransitionStyle
 styleable DrawerArrowToggle arrowHeadLength arrowShaftLength barLength color drawableSize gapBetweenBars spinBars thickness
 styleable FontFamily fontProviderAuthority fontProviderCerts fontProviderFetchStrategy fontProviderFetchTimeout fontProviderPackage fontProviderQuery
 styleable FontFamilyFont android_font android_fontWeight android_fontStyle font fontStyle fontWeight
@@ -1415,8 +1261,6 @@ styleable GenericDraweeHierarchy actualImageScaleType backgroundImage fadeDurati
 styleable LinearLayoutCompat android_gravity android_orientation android_baselineAligned android_baselineAlignedChildIndex android_weightSum divider dividerPadding measureWithLargestChild showDividers
 styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_width android_layout_height android_layout_weight
 styleable ListPopupWindow android_dropDownHorizontalOffset android_dropDownVerticalOffset
-styleable LoadingImageView circleCrop imageAspectRatio imageAspectRatioAdjust
-styleable MapAttrs ambientEnabled cameraBearing cameraMaxZoomPreference cameraMinZoomPreference cameraTargetLat cameraTargetLng cameraTilt cameraZoom latLngBoundsNorthEastLatitude latLngBoundsNorthEastLongitude latLngBoundsSouthWestLatitude latLngBoundsSouthWestLongitude liteMode mapType uiCompass uiMapToolbar uiRotateGestures uiScrollGestures uiTiltGestures uiZoomControls uiZoomGestures useViewLifecycle zOrderOnTop
 styleable MenuGroup android_enabled android_id android_visible android_menuCategory android_orderInCategory android_checkableBehavior
 styleable MenuItem android_icon android_enabled android_id android_checked android_visible android_menuCategory android_orderInCategory android_title android_titleCondensed android_alphabeticShortcut android_numericShortcut android_checkable android_onClick actionLayout actionProviderClass actionViewClass alphabeticModifiers contentDescription iconTint iconTintMode numericModifiers showAsAction tooltipText
 styleable MenuView android_windowAnimationStyle android_itemTextAppearance android_horizontalDivider android_verticalDivider android_headerBackground android_itemBackground android_itemIconDisabledAlpha preserveIconSpacing subMenuArrow
@@ -1424,7 +1268,6 @@ styleable PopupWindow android_popupBackground android_popupAnimationStyle overla
 styleable PopupWindowBackgroundState state_above_anchor
 styleable RecycleListView paddingBottomNoButtons paddingTopNoTitle
 styleable SearchView android_focusable android_maxWidth android_inputType android_imeOptions closeIcon commitIcon defaultQueryHint goIcon iconifiedByDefault layout queryBackground queryHint searchHintIcon searchIcon submitBackground suggestionRowLayout voiceIcon
-styleable SignInButton buttonSize colorScheme scopeUris
 styleable SimpleDraweeView actualImageResource actualImageScaleType actualImageUri backgroundImage fadeDuration failureImage failureImageScaleType overlayImage placeholderImage placeholderImageScaleType pressedStateOverlayImage progressBarAutoRotateInterval progressBarImage progressBarImageScaleType retryImage retryImageScaleType roundAsCircle roundBottomEnd roundBottomLeft roundBottomRight roundBottomStart roundTopEnd roundTopLeft roundTopRight roundTopStart roundWithOverlayColor roundedCornerRadius roundingBorderColor roundingBorderPadding roundingBorderWidth viewAspectRatio
 styleable Spinner android_entries android_popupBackground android_prompt android_dropDownWidth popupTheme
 styleable SwitchCompat android_textOn android_textOff android_thumb showText splitTrack switchMinWidth switchPadding switchTextAppearance thumbTextPadding thumbTint thumbTintMode track trackTint trackTintMode
@@ -1433,6 +1276,4 @@ styleable Toolbar android_gravity android_minHeight buttonGravity collapseConten
 styleable View android_theme android_focusable paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
 styleable ViewStubCompat android_id android_layout android_inflatedId
-styleable WalletFragmentOptions appTheme environment fragmentMode fragmentStyle
-styleable WalletFragmentStyle buyButtonAppearance buyButtonHeight buyButtonText buyButtonWidth maskedWalletDetailsBackground maskedWalletDetailsButtonBackground maskedWalletDetailsButtonTextAppearance maskedWalletDetailsHeaderTextAppearance maskedWalletDetailsLogoImageType maskedWalletDetailsLogoTextColor maskedWalletDetailsTextAppearance
 xml preferences

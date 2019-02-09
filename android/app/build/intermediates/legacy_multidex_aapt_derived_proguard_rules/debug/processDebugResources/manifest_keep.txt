@@ -1,2 +1,2 @@
-# Referenced at E:\Nikhil\ReactNative\MyApp\android\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:23
+# Referenced at E:\Nikhil\ReactNative\MyApp\android\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:17
 -keep class com.myapp.MainApplication { <init>(); }
