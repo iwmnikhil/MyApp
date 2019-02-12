@@ -4,8 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyApp.iml" filepath="$PROJECT_DIR$/MyApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-fetch-blob/android/react-native-fetch-blob.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-fetch-blob/android/react-native-fetch-blob.iml" />
       <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-gesture-handler/android/react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-gesture-handler/android/react-native-gesture-handler.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-shopify/android/react-native-shopify.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-shopify/android/react-native-shopify.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-pdf-lib/android/react-native-pdf-lib.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-pdf-lib/android/react-native-pdf-lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-vector-icons/android/react-native-vector-icons.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-vector-icons/android/react-native-vector-icons.iml" />
     </modules>
   </component>

@@ -58,6 +58,9 @@
 		DA57E932DE4540039124670E /* libReactNativeNavigation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0F7DE540AD4AAC9256FE47 /* libReactNativeNavigation.a */; };
 		7E36BE7599034AAFB41F2FD3 /* ReactNativeNavigationTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 2C55695D06094717A7ABEEEA /* ReactNativeNavigationTests.xctest */; };
 		61A3AD4A878F4A54922F1A07 /* libRNShopify.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BFA84D2EC654616A0D20431 /* libRNShopify.a */; };
+		DB78E1B2A1554EB1B27E1625 /* libRNPDFLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 196F9C0D92674BA2895D8468 /* libRNPDFLib.a */; };
+		48CBFDE4482748A5BF32A45C /* Times New Roman.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2EDC8D8FF9D44F79AF4AA130 /* Times New Roman.ttf */; };
+		6BA831BA65164D6BBC6502BA /* libRNFetchBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E6D30C5B4144932A4A428C0 /* libRNFetchBlob.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -388,6 +391,11 @@
 		2C55695D06094717A7ABEEEA /* ReactNativeNavigationTests.xctest */ = {isa = PBXFileReference; name = "ReactNativeNavigationTests.xctest"; path = "ReactNativeNavigationTests.xctest"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.cfbundle; explicitFileType = undefined; includeInIndex = 0; };
 		D8F1A11896B449ACAF84FC2E /* RNShopify.xcodeproj */ = {isa = PBXFileReference; name = "RNShopify.xcodeproj"; path = "../node_modules/react-native-shopify/ios/RNShopify.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
 		9BFA84D2EC654616A0D20431 /* libRNShopify.a */ = {isa = PBXFileReference; name = "libRNShopify.a"; path = "libRNShopify.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		811C04B04A9C4A5BB41D7947 /* RNPDFLib.xcodeproj */ = {isa = PBXFileReference; name = "RNPDFLib.xcodeproj"; path = "../node_modules/react-native-pdf-lib/ios/RNPDFLib.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		196F9C0D92674BA2895D8468 /* libRNPDFLib.a */ = {isa = PBXFileReference; name = "libRNPDFLib.a"; path = "libRNPDFLib.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		2EDC8D8FF9D44F79AF4AA130 /* Times New Roman.ttf */ = {isa = PBXFileReference; name = "Times New Roman.ttf"; path = "../node_modules/react-native-pdf-lib/assets/Times New Roman.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BF1EFFFF5D4C4EC7967C3216 /* RNFetchBlob.xcodeproj */ = {isa = PBXFileReference; name = "RNFetchBlob.xcodeproj"; path = "../node_modules/react-native-fetch-blob/ios/RNFetchBlob.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		6E6D30C5B4144932A4A428C0 /* libRNFetchBlob.a */ = {isa = PBXFileReference; name = "libRNFetchBlob.a"; path = "libRNFetchBlob.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -420,6 +428,8 @@
 				DA57E932DE4540039124670E /* libReactNativeNavigation.a in Frameworks */,
 				7E36BE7599034AAFB41F2FD3 /* ReactNativeNavigationTests.xctest in Resources */,
 				61A3AD4A878F4A54922F1A07 /* libRNShopify.a in Frameworks */,
+				DB78E1B2A1554EB1B27E1625 /* libRNPDFLib.a in Frameworks */,
+				6BA831BA65164D6BBC6502BA /* libRNFetchBlob.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -611,6 +621,8 @@
 				3705DEB10DBC40D5979790F1 /* RNVectorIcons.xcodeproj */,
 				834677BC0EE646DD84865556 /* ReactNativeNavigation.xcodeproj */,
 				D8F1A11896B449ACAF84FC2E /* RNShopify.xcodeproj */,
+				811C04B04A9C4A5BB41D7947 /* RNPDFLib.xcodeproj */,
+				BF1EFFFF5D4C4EC7967C3216 /* RNFetchBlob.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -677,6 +689,7 @@
 				5E5490AEB9CA424DBE12664F /* Octicons.ttf */,
 				C8293C7F7C9048769A35B489 /* SimpleLineIcons.ttf */,
 				22CFF15FB8DE445DAA663B9D /* Zocial.ttf */,
+				2EDC8D8FF9D44F79AF4AA130 /* Times New Roman.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1143,6 +1156,7 @@
 				82363005AFBA4D3EB0EA9F6F /* Octicons.ttf in Resources */,
 				6CD98F6355864F0BB3A86E33 /* SimpleLineIcons.ttf in Resources */,
 				8496878F25934A95B290C731 /* Zocial.ttf in Resources */,
+				48CBFDE4482748A5BF32A45C /* Times New Roman.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1283,6 +1297,8 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1290,6 +1306,8 @@
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-navigation\lib\ios/**",
 					"$(SRCROOT)\..\node_modules\react-native-shopify\ios",
+					"$(SRCROOT)\..\node_modules\react-native-pdf-lib\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-fetch-blob\ios/**",
 				);
 			};
 			name = Debug;
@@ -1317,6 +1335,8 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1324,6 +1344,8 @@
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-navigation\lib\ios/**",
 					"$(SRCROOT)\..\node_modules\react-native-shopify\ios",
+					"$(SRCROOT)\..\node_modules\react-native-pdf-lib\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-fetch-blob\ios/**",
 				);
 			};
 			name = Release;
@@ -1350,6 +1372,8 @@
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-navigation\lib\ios/**",
 					"$(SRCROOT)\..\node_modules\react-native-shopify\ios",
+					"$(SRCROOT)\..\node_modules\react-native-pdf-lib\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-fetch-blob\ios/**",
 				);
 			};
 			name = Debug;
@@ -1375,6 +1399,8 @@
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-navigation\lib\ios/**",
 					"$(SRCROOT)\..\node_modules\react-native-shopify\ios",
+					"$(SRCROOT)\..\node_modules\react-native-pdf-lib\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-fetch-blob\ios/**",
 				);
 			};
 			name = Release;
@@ -1410,6 +1436,8 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1417,6 +1445,8 @@
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-navigation\lib\ios/**",
 					"$(SRCROOT)\..\node_modules\react-native-shopify\ios",
+					"$(SRCROOT)\..\node_modules\react-native-pdf-lib\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-fetch-blob\ios/**",
 				);
 			};
 			name = Debug;
@@ -1452,6 +1482,8 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1459,6 +1491,8 @@
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-navigation\lib\ios/**",
 					"$(SRCROOT)\..\node_modules\react-native-shopify\ios",
+					"$(SRCROOT)\..\node_modules\react-native-pdf-lib\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-fetch-blob\ios/**",
 				);
 			};
 			name = Release;
@@ -1493,6 +1527,8 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1500,6 +1536,8 @@
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-navigation\lib\ios/**",
 					"$(SRCROOT)\..\node_modules\react-native-shopify\ios",
+					"$(SRCROOT)\..\node_modules\react-native-pdf-lib\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-fetch-blob\ios/**",
 				);
 			};
 			name = Debug;
@@ -1534,6 +1572,8 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1541,6 +1581,8 @@
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-navigation\lib\ios/**",
 					"$(SRCROOT)\..\node_modules\react-native-shopify\ios",
+					"$(SRCROOT)\..\node_modules\react-native-pdf-lib\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-fetch-blob\ios/**",
 				);
 			};
 			name = Release;

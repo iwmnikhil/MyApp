@@ -109,6 +109,7 @@ android/support/v7/graphics/drawable/DrawerArrowDrawable$ArrowDirection.class
 android/support/v7/view/menu/CascadingMenuPopup$HorizPosition.class
 android/support/v7/widget/LinearLayoutCompat$DividerMode.class
 android/support/v7/widget/LinearLayoutCompat$OrientationMode.class
+com/RNFetchBlob/RNFetchBlobPackage.class
 com/facebook/cache/disk/DefaultDiskStorage$FileType.class
 com/facebook/common/internal/DoNotStrip.class
 com/facebook/common/internal/Objects.class
@@ -176,6 +177,7 @@ com/facebook/react/uimanager/common/UIManagerType.class
 com/facebook/soloader/DoNotOptimize.class
 com/facebook/soloader/SoLoader.class
 com/facebook/widget/text/span/BetterImageSpan$BetterImageSpanAlignment.class
+com/hopding/pdflib/PDFLibPackage.class
 com/myapp/BuildConfig.class
 com/myapp/MainApplication$1.class
 com/myapp/MainApplication.class
