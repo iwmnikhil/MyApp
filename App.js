@@ -3,15 +3,15 @@ import { AppRegistry, Button, Alert, View, Text, Image, StyleSheet, Modal, Touch
 import { createStackNavigator, createBottomTabNavigator, createAppContainer } from "react-navigation";
 import Icon from 'react-native-vector-icons/FontAwesome';
 //import Icon from 'react-native-vector-icons/MaterialIcons'
-import ProfileScreen from './screens/ProfileScreen';
-import SettingsScreen from './screens/SettingsScreen';
-import TestScreen from './screens/TestScreen';
+import ProfileScreen from './app/screens/ProfileScreen';
+import SettingsScreen from './app/screens/SettingsScreen';
+import TestScreen from './app/screens/TestScreen';
 
 class LogoTitle extends React.Component {
 	render() {
 		return (
 			<Image
-				source={require('./images/user.png')}
+				source={require('./app/images/user.png')}
 				style={{ width: 30, height: 30 }}
 			/>
 		);
