@@ -201,8 +201,8 @@ const style = StyleSheet.create({
 		justifyContent: 'center',
 		alignItems: 'center',
 		fontWeight: "bold",
-		fontSize: 20
-		color: "#9c9c9c",
+		fontSize: 18
+		color: "#9b9b9b",
 		backgroundColor: 'powderblue'
 	}
 });
