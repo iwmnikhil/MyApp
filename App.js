@@ -201,7 +201,11 @@ const style = StyleSheet.create({
 		justifyContent: 'center',
 		alignItems: 'center',
 		fontWeight: "bold",
+<<<<<<< HEAD
 		fontSize: 19,
+=======
+		fontSize: 20
+>>>>>>> c5e8954f6466ab5cffa9fa8da3c57596754df95e
 		color: "#9b9b9b",
 		backgroundColor: 'powderblue'
 	}
