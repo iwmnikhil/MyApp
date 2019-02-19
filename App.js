@@ -202,7 +202,7 @@ const style = StyleSheet.create({
 		alignItems: 'center',
 		fontWeight: "bold",
 		fontSize: 20
-		color: "#9c9c9c",
+		color: "#999",
 		backgroundColor: 'powderblue'
 	}
 });
